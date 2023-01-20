@@ -24,7 +24,7 @@ step 4500: train loss 1.1080, val loss 1.4872
 step 4999: train loss 1.0767, val loss 1.4866
 ```
 
-## Tnference Result
+## Inference Result
 ### Graph Compilation
 ```
 atc --model nanoGPT.onnx --framework 5 --soc_version Ascend310 --output nanoGPT
@@ -60,3 +60,6 @@ Methought despection and had been his life,
 Proud he some severeigns of second crimm,
 Open his monument blood from our honour hither.
 ```
+## Environment
+Training: PyTorch-1.8.1 from [Ascendhub](https://ascendhub.huawei.com/#/detail/pytorch-modelzoo) with tag **22.0.RC2-1.8.1**.  
+Inference: CANN from [Ascendhub](https://ascendhub.huawei.com/#/detail/infer-modelzoo) with tag **22.0.RC2**
