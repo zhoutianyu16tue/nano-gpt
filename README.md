@@ -32,33 +32,31 @@ atc --model nanoGPT.onnx --framework 5 --soc_version Ascend310 --output nanoGPT
 ### Text Generation
 After 5000 iterations, the generated text starts to make some sense and look like English text with some Shakespeare vibe.
 ```
-LEONTES:
-And so person the lubstant.
+You have, the rob a breather Hastings,
+That your tongue vows betow him friends:
+I think, good Montague,
+Master have disposed fair made and half
+To saved one bloody than my life of the fiery
+To unless the rile whom could be so hurs,
+Say and yet, Fitzwards, siring of his virtuous;
+Helm him was perform to the deople much growth
+Of his hands: set the jewel, that the orders.
 
-LEONTES:
-Go,
-Master, you had; wonded to Paris Camillo,
-Beaut, that honour may leave the heart be
-For will I wake for a vewy touch that he hath
-He hath we might behind you are one known,
-To hear my lord; for, being confinied within
-Above it for my noble modesty,
-And she bite us or earth to thee widow
-Into you advocation
-Death preserved at the house.
+BISHOP OF ELY:
+Twelcome is the time
+From our shepherds hideed in the bride.
 
-AUTOLYCUS:
-Marry, I cannot come, you have been to age,
-I can, that raised our praises what he can was,
-Your doth quake itself thee in my see
-You have pass'd fested mine own present mine hollow,
-All makes that take you for Irish better mother,
-Which now or but show'd the spirits whole God looks
-Coming wait hath ruin'd vile all men more flies,
-And where Lord Hastings in your spoils world,
-Though shalt that fatal money, here be crown'd
-The dready of his plucking Richmond:' if Henry had cold
-And left thy last sons that the treacherous tirms:
-When have I must I make my words I can not,
-I see thee had vain. 
+QUEEN MARGARET:
+Tlet he scave me this sovereignty flatterers;
+I think it with my end to I thee and wars,
+In poor God and yet as to see thee;
+Of all the way that I have mudded mine sun
+And speak crown'd in jades by the nrice of tears.
+Where, by my prisonous pawer that, by thou wast
+Seeming their gatesy have bleeding drength.
+Here lose that we indeed so brows by her own
+And unatted unborneign a womb! What a man?
+Methought despection and had been his life,
+Proud he some severeigns of second crimm,
+Open his monument blood from our honour hither.
 ```
