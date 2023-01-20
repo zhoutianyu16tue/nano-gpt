@@ -10,7 +10,7 @@ I made the following changes,
 ## Training Result
 It took around 13 minutes for the 10M-parameter model to converge, after 5000 iterations.
 Andrej said in his [nanoGPT video](https://www.youtube.com/watch?v=kCc8FmEb1nY&t=6039s)
-that the same 10M-parameter model converged in his A100 GPU after around 15min.
+that the same 10M-parameter model converged in his A100 GPU after around 15 minutes.
 ```
 step 500: train loss 2.0106, val loss 2.0910
 step 1000: train loss 1.6114, val loss 1.7706
