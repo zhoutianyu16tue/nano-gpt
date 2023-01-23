@@ -1,6 +1,6 @@
 # Nano-gpt
 This repository tried to reproduce the nanoGPT implementation by Andrej Karpathy.  
-Definitely check out his content on [YouTube](https://www.youtube.com/watch?v=kCc8FmEb1nY&t=6039s) and [Github](https://github.com/karpathy/nanoGPT)  
+Definitely check out his content on [YouTube](https://www.youtube.com/watch?v=kCc8FmEb1nY&t=6039s) and [GitHub](https://github.com/karpathy/nanoGPT)  
 
 Instead of Nvidia GPU, I managed to port Andrej's code to Huawei Ascend AI accelerator.
 I made the following changes,
