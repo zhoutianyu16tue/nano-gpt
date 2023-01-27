@@ -8,7 +8,7 @@ I made the following changes,
 * I used [Ascend graph compiler](https://www.hiascend.com/document/detail/en/canncommercial/600/inferapplicationdev/atctool/atlasatc_16_0007.html) to generate a more efficient graph representation; so the inference can work.
 
 ## Training Result
-It took around 13 minutes for the 10M-parameter model to converge, after 5000 iterations.
+It took a little over 8 minutes for the 10M-parameter model to converge, after 5000 iterations.
 Andrej said in his [nanoGPT video](https://www.youtube.com/watch?v=kCc8FmEb1nY&t=6039s)
 that the same 10M-parameter model converged in his A100 GPU after around 15 minutes.
 ```
