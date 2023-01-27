@@ -4,6 +4,7 @@ import torch.nn as nn
 from torch.nn import functional as F
 import time
 from apex import amp
+import apex
 
 # hyperparameters
 batch_size = 64 # how many independent sequences will we process in parallel?
@@ -180,9 +181,10 @@ m = model.to(device)
 print(sum(p.numel() for p in m.parameters())/1e6, 'M parameters')
 
 # create a PyTorch optimizer
-optimizer = torch.optim.AdamW(model.parameters(), lr=learning_rate)
-
-model, optimizer = amp.initialize(model, optimizer, opt_level="O2")
+# optimizer = torch.optim.AdamW(model.parameters(), lr=learning_rate)
+optimizer = apex.optimizers.NpuFusedAdamW(model.parameters(), lr=learning_rate
+                                          
+model, optimizer = amp.initialize(model, optimizer, opt_level="O2", combine_grad=True)
 
 for iter in range(max_iters):
 
